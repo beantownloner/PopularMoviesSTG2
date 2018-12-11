@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/review_item_height"
+    android:layout_marginBottom="@dimen/list_item_bottom_margin"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/trailerTextView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/list_item_left_margin"
+        android:text="TextView" />
+</LinearLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+   >
+
+    <item
+        android:id="@+id/sortbypopularity"
+        android:orderInCategory="1"
+        android:title="@string/sort_popular"
+
+        />
+    <item
+        android:id="@+id/sortbyrating"
+        android:orderInCategory="2"
+        android:title="@string/sort_rating"
+
+        />
+
+    <item
+        android:id="@+id/favoritelisting"
+        android:orderInCategory="3"
+        android:title="@string/favorites"
+
+        />
+</menu>
